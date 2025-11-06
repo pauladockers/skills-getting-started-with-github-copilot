@@ -74,6 +74,36 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card .participants-list {
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.delete-participant-btn {
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 8px;
+  transition: color 0.2s;
+  outline: none;
+}
+.delete-participant-btn:focus {
+  outline: 2px solid #005fcc;
+  outline-offset: 2px;
+}
+.delete-participant-btn:hover {
+  color: #005fcc;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -88,16 +118,6 @@ section h3 {
 .form-group select {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-button {
-  background-color: #1a237e;
-  color: white;
-  border: none;
-  padding: 10px 15px;
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
